@@ -1,0 +1,8 @@
+'add ' for adding numbers to a set , eg add 34 6.6 -4
+'remove ' for removing number from a set , eg remove 5.6 -3 1
+'print ' for printing sorted numbers to the standard output
+'print ' (with a file name) prints sorted numbers in the file, eg. print my-sorted-numbers
+'print + ' (with a file name) appends sorted numbers in the file, eg. print + my-sorted-numbers
+'graph ' prints a red-black tree of numbers (with indented levels) to the standard output. Numbers in red nodes are printed in round brackets, eg (13), numbers in black nodes – in square brackets, [13].
+'graph ' (with a file name) – the same as graph, but a tree is printed into the file.
+'graph + ' (with a file name) – the same as graph, but a tree is appended into the file

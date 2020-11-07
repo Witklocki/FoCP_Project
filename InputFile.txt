@@ -1,7 +1,2 @@
-add 3 11 -50 6.4
+add 3 11 -50 6.4 5
 print
-remove 11
-add 9 7 -2
-print test1
-add 0.6
-print + test1
