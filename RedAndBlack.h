@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _RED_AND_BLACK_H
+#define _RED_AND_BLACK_H
 
 #include <iostream>
 #include <fstream>
@@ -338,18 +339,19 @@ void graph(vector<double> tmpNumbers)
 }
 
 /**
-*Main function of program to choose what to do with inputed file
-*Work as swich but on strings most of function is sequance of if
-*At begin read "InputFile.txt" to know used commands 
-*Do the commands in order from first to last
+  *Main function of program to choose what to do with inputed file
+  *Work as swich but on strings most of function is sequance of if
+  *At begin read "InputFile.txt" to know used commands 
+  *Do the commands in order from first to last
+  *@param inputFile name of input file
 **/
 
-void redAndBlack()
+void redAndBlack(string inputFile)
 {
     /**
      * Get data from input file add it to 2D vector to know the order of comand
     **/
-    ifstream input("InputFile.txt");
+    ifstream input(inputFile);
 
     vector<double> numbers;
 
@@ -450,3 +452,5 @@ void redAndBlack()
         }
     }
 }
+
+#endif

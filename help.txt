@@ -1,3 +1,4 @@
+-i (with file name) start program with input file 
 'add ' for adding numbers to a set , eg add 34 6.6 -4
 'remove ' for removing number from a set , eg remove 5.6 -3 1
 'print ' for printing sorted numbers to the standard output
